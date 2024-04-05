@@ -16,7 +16,7 @@ resource "aws_instance" "web" {
 
     ami = "ami-007020fd9c84e18c7"
     instance_type = "t2.micro"
-    count = 1
+    count = 2
 
     tags = {
         key_name = "kk"
